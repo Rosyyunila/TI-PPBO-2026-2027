@@ -1,11 +1,11 @@
 public class BiodataSaya {
     public static void main(String[] args) {
 
-        //menampilkan nama
-        System.out.println("Nama: Rosy yunila ");
-        //menampilkan NIM
+        //menampilkan nama dan nim mahasiswa dalam satu baris
+        System.out.print("Nama: Rosy yunila - ");
         System.out.println("Nim: 2025573010023");
-        //menampilkan nama prodi
-        System.out.println("Prodi: Teknik informatika" );
+
+        //menampilkan nama prodi mahasiswa
+        System.out.println("Program Studi: Teknik informatika" );
            }
 }
