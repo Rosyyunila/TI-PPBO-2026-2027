@@ -5,5 +5,14 @@ public class Helloworld {
         System.out.print("Budi");
         System.out.println();
         System.out.println("Ini baris baru");
+        System.out.println();
+        //program menampilkan biodata sederhana
+        System.out.println("Nama: Budi");
+        /*baris di bawah ini
+        /mencetak NIM mahasiswa
+         */
+        System.out.println("NIM: 12345");
+
+
     }
 }
