@@ -7,6 +7,7 @@ public class Pegawai {
         this.nama = nama;
         this.nip = nip;
         this.gajiPokok = gajiPokok;
+
     }
     public void tampilkanData() {
         System.out.println("Nama: " + nama);
