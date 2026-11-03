@@ -5,4 +5,7 @@ public class Manager extends Pegawai {
         super(nama, nip, gajiPokok); // panggil constructor pegawai
         this.tujunjanganJabatan = tujunjanganJabatan;
     }
+    public void tampilkanRingkasan() {
+        System.out.println("Manager: " + nama); //ERROR jika private
+    }
 }
