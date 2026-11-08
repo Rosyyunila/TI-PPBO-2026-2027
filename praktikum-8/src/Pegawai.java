@@ -6,11 +6,17 @@ public class Pegawai {
     public Pegawai(String nama, String nip, double gajiPokok) {
         this.nama = nama;
         this.nip = nip;
-        this.gajiPokok = gajiPokok;
+
+      if (gajiPokok < 0) {
+          System.out.println("Peringatan: Gaji pokok tidak boleh negatif!");
+          this.gajiPokok = 0;
+      } else {
+          this.gajiPokok = gajiPokok;
+      }
     }
     public void tampilkanData() {
         System.out.println("Nama: " + nama);
         System.out.println("NIP : " + nip);
-        System.out.println("Gaji Pokok: " + gajiPokok);
+        System.out.println("Gaji Pokok: " + String.format("%.0f",gajiPokok));
     }
 }
