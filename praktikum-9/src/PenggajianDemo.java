@@ -4,13 +4,14 @@ public class PenggajianDemo {
                 new Manager("Budi", "M001", 3000000, 1000000),
                 new Staff("Siti", "S001", 2000000, 500000),
                 new Staff("Andi", "S002", 2000000, 300000),
+                new Direktur("Rosy", "D001",10000000,5000000,3000000)
         };
         double totalGaji = 0;
         for (Pegawai pg : daftarPegawai) {
             double gaji = pg.hitungGaji(); //versi sesuai jenis
-            System.out.println(pg.nama + ": " + gaji);
+            System.out.printf("%s: Rp%,.0f%n",pg.nama, gaji);
             totalGaji += gaji;
         }
-        System.out.println("Total gaji: " + totalGaji);
+        System.out.printf("Total gaji: Rp%,.0f%n ", totalGaji);
     }
 }
