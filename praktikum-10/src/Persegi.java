@@ -10,6 +10,7 @@ public class Persegi extends BangunDatar{
     public  double hitungLuas() {
         return sisi * sisi;
     }
+
     @Override
     public double hitungKeliling() {
         return  4* sisi;

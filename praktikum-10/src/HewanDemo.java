@@ -4,6 +4,7 @@ public class HewanDemo {
                 new Kucing("Milo"),
                 new Bebek("Donal"),
                 new Elang("Garuda"),
+                new Pinguin("Tedy")
         };
         for (Hewan h : daftar) {
             h.bersuara();
