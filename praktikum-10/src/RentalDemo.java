@@ -4,8 +4,10 @@ public class RentalDemo {
                 new Mobil("Avanza"),
                 new Motor("Trail KLX"),
                 new Mobil("Xenia"),
+                new Sepeda("Polygon"),
+                new Jeep("Jeep Wrangler")
         };
-        int hari = 3;
+        int hari = 5;
         double total = 0;
 
         for (Kendaraan k : daftar) {
@@ -18,6 +20,6 @@ public class RentalDemo {
             }
 
         }
-        System.out.println("Total sewa " + hari + "hari: " + total);
+        System.out.println("Total sewa " + hari + " hari: " + total);
     }
 }
